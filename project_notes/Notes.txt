@@ -1,0 +1,34 @@
+1. Label the dataset
+2. tf-idf & Chi Square approach
+3. 70% Training data and 30% testing data
+4. NLP -Sentiment Analysis 
+4. Navie Bayes & Support Vector Machine 
+
+====================================================
+Project: Sentiment Analysis on Amazon Product Reviews
+Introduction:
+The project aims to perform sentiment analysis on a large-scale dataset of Amazon product reviews. With the increasing reliance on online shopping and the significance of customer reviews, sentiment analysis becomes crucial for understanding the sentiments and opinions of customers towards various products. The project utilizes supervised learning methods to polarize the reviews into positive and negative sentiments.
+
+Dataset:
+The dataset used for this project is obtained from Amazon product reviews, consisting of three categories: Electronics, Cell Phone and Accessories, and Musical Instruments. Each review contains information such as reviewer ID, product ID, review text, overall rating, and more. The dataset is preprocessed and labeled for sentiment analysis.
+
+Methodology:
+Data Acquisition: Acquiring the Amazon product review dataset and preprocessing it for analysis. Active learning approach is used for labeling the dataset.
+Data Pre-Processing: Tokenization, removing stop words, and POS tagging are performed to prepare the data for analysis.
+Feature Extraction: Two approaches, Bag of Words and TF-IDF, are used for feature extraction.
+Algorithm for Sentiment Analysis: Various machine learning algorithms such as Linear Support Vector Machine, Multinomial Naïve Bayes, Stochastic Gradient Descent, Random Forest, Logistic Regression, and Decision Tree are applied for sentiment analysis.
+Evaluating Measures: Evaluation metrics including Accuracy, Precision, Recall, and F1 Score are used to assess the performance of the classifiers.
+Results:
+The project demonstrates the effectiveness of different machine learning algorithms in classifying sentiments in Amazon product reviews. It achieves high accuracy, precision, recall, and F1 scores across different categories of products.
+
+Comparative Analysis:
+A comparative analysis is conducted with other related works in sentiment analysis of product reviews. The proposed model outperforms several existing approaches in terms of accuracy and effectiveness.
+
+Conclusion and Future Works:
+The project concludes with the success of the proposed supervised learning model in sentiment analysis of Amazon product reviews. Future works may include automation of data labeling using PCA, integration with customer interaction systems, and generalization of the model to various types of text-based reviews and comments.
+
+References:
+The project references various research papers and studies in sentiment analysis and machine learning for product reviews, providing a comprehensive overview of related works in the field.
+
+Implementation:
+The project implementation involves coding in Python using libraries such as Pandas, Scikit-learn, and NLTK for data preprocessing, feature extraction, and machine learning model implementation. The final implementation is encapsulated in a Jupyter Notebook named final_project.ipynb.
