@@ -41,9 +41,4 @@ Sentiment Analysis on Large Scale Amazon Product Reviews
 - Future works include automation of data labelling, integration with customer interaction systems, and generalization to diverse text-based reviews.
 
 # Technonoly 
-Machine Learning, Python 
-
-# Build & Run Commands 
-
-
-# Project Summary
+Machine Learning, Python, Jupyter Notebook, pandas, sklearn, nltk
