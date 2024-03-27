@@ -1,5 +1,4 @@
-# Project Title
-Sentiment Analysis on Large Scale Amazon Product Reviews
+# Project: Sentiment Analysis on Large Scale Amazon Product Reviews
 
 ## Abstract
 - E-commerce is booming, emphasizing the importance of online reviews.
@@ -40,5 +39,5 @@ Sentiment Analysis on Large Scale Amazon Product Reviews
 - Achieved over 90% accuracy in sentiment analysis.
 - Future works include automation of data labelling, integration with customer interaction systems, and generalization to diverse text-based reviews.
 
-# Technonoly 
+# Technology 
 Machine Learning, Python, Jupyter Notebook, pandas, sklearn, nltk
