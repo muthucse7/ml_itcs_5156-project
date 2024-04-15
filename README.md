@@ -1,43 +1,36 @@
-# Project: Sentiment Analysis on Large Scale Amazon Product Reviews
+# Sentiment Analysis on Large Scale Amazon Product Reviews
 
-## Abstract
-- E-commerce is booming, emphasizing the importance of online reviews.
-- Sentiment analysis helps understand customer sentiments towards products.
-- Supervised learning on large-scale Amazon datasets achieved satisfactory accuracy.
+## Background
+In the contemporary landscape of e-commerce, consumer decisions are increasingly shaped by online reviews. This project, titled "Sentiment Analysis on Amazon Product Reviews," was presented at the IEEE International Conference on Innovative Research and Development in May 2018, Bangkok, Thailand. The project is authored by Tanjim Ul Haque, Nudrat Nawal Saber, and Faisal Muhammad Shah.
 
 ## Introduction
-- Online commerce relies heavily on customer reviews for product selection.
-- Importance of sentiment analysis for understanding product popularity.
-- Objective: Categorize positive/negative feedback using supervised learning.
-- Trust in reviews: Over 88% of online shoppers trust reviews as much as personal recommendations.
+The project aims to explore sentiment analysis methodologies to decode sentiments embedded within extensive Amazon product review datasets.
 
-## Related Works
-- Various approaches in sentiment analysis and opinion mining.
-- Examples: Business analytics, probabilistic machine learning, feature selection methods.
-- Active learning, feature extraction techniques, and different classifiers used in previous studies.
+## Model Used and Algorithms
+### Objective
+Develop a supervised learning model for sentiment analysis on Amazon product reviews.
+### Specific Goals
+Achieve accuracy exceeding 90% in sentiment classification.
+Explore and implement feature extraction methods such as Bag of Words, TFIDF, and Chi Square.
+Compare and evaluate various classifiers, including Linear Support Vector Machine, Multinomial Naïve Bayes, Stochastic Gradient Descent, Random Forest, Logistic Regression, and Decision Tree.
 
 ## Methodology
-- Utilized Amazon product data for analysis.
-- Data Acquisition: Three categories selected – Electronics, Cell Phones, Musical Instruments.
-- Active learning approach for data labelling.
-- Data Pre-Processing: Tokenization, stop words removal, POS tagging.
-- Feature Extraction: Bag of Words, TF-IDF, Chi-Square.
-- Evaluation Measures: Accuracy, Precision, Recall, F1 Score.
+Active Learning Approach: Implement a pool-based active learning process for iterative dataset labeling, utilizing user feedback to enhance model accuracy.
+Feature Extraction Methods: Employ Bag of Words approach focusing on nouns and adjectives, apply TF-IDF and Chi Square methods for effective feature extraction.
 
-## Results
-- Experimented with various machine learning algorithms (e.g., SVM, Naïve Bayes, Random Forest).
-- Achieved high accuracies ranging from 88% to 94% across different datasets.
-- SVM consistently provided the highest accuracy.
+## Evaluation
+Classifier Comparison: Evaluate the performance of multiple machine learning algorithms through 10-fold cross-validation, analyzing accuracy, precision, recall, and F1 score.
+Comparative Analysis: Compare the proposed model's accuracy with related works in sentiment analysis on Amazon product reviews.
 
-## Comparative Analysis
-- Compared project results with previous related works.
-- Achieved significantly higher accuracies compared to earlier studies.
-- Improved methodologies in pre-processing, feature extraction, and classification.
+## Technology Stacks
+Programming Language: Python
+Libraries: scikit-learn, NLTK
+Dataset: Utilized a labelled Amazon product dataset provided by researchers, focusing on Electronics, Cell Phone & Accessories, and Musical Instruments categories.
 
-## Conclusion and Future Works
-- Proposed supervised learning model demonstrated effectiveness.
-- Achieved over 90% accuracy in sentiment analysis.
-- Future works include automation of data labelling, integration with customer interaction systems, and generalization to diverse text-based reviews.
+## Related Works
+Overview of existing research in sentiment analysis on product reviews.
+Mentioned paper: "Sentiment Analysis on Large Scale Amazon Product Reviews" (2018).
+Survey on the area: Brief summary of other related works in sentiment analysis, focusing on three primary papers.
 
-# Technology 
-Machine Learning, Python, Jupyter Notebook, pandas, sklearn, nltk
+## Conclusion
+The project endeavors to tackle the essential task of sentiment analysis in Amazon product reviews, furnishing valuable insights for decision-making in the e-commerce realm.
